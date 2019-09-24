@@ -1,0 +1,45 @@
+p { //(0,0,0,1)
+	margin-bottom: 1.5em;
+}
+
+dfn, cite, em, i { //(0,0,0,1), (0,0,0,1), (0,0,0,1), (0,0,0,1)
+	font-style: italic;
+}
+
+blockquote { //(0,0,0,1)
+	margin: 0 1.5em;
+}
+
+address { //(0,0,0,1)
+	margin: 0 0 1.5em;
+}
+
+pre { //(0,0,0,1)
+	background: $color__background-pre;
+	font-family: $font__pre;
+	@include font-size(0.9375);
+	line-height: $font__line-height-pre;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code, kbd, tt, var { //(0,0,0,1),(0,0,0,1),(0,0,0,1),(0,0,0,1)
+	font-family: $font__code;
+	@include font-size(0.9375);
+}
+
+abbr, acronym { //(0,0,0,1), (0,0,0,1)
+	border-bottom: 1px dotted $color__border-abbr;
+	cursor: help;
+}
+
+mark, ins { //(0,0,0,1), (0,0,0,1)
+	background: $color__background-ins;
+	text-decoration: none;
+}
+
+big { //(0,0,0,1)
+	font-size: 125%;
+}

@@ -1,0 +1,30 @@
+// ul, ol {
+// 	margin: 0 0 1.5em 3em;
+// }
+
+ul {  //(0,0,0,1)
+	list-style: none;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	    padding-inline-start: 0;
+}
+
+
+ol { //(0,0,0,1)
+	list-style: none;
+	padding: 0;
+}
+
+li > ul,
+li > ol { //(0,0,0,2) , (0,0,0,2)
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt { //(0,0,0,1)
+	font-weight: bold;
+}
+
+dd { //(0,0,0,1)
+	margin: 0 1.5em 1.5em;
+}

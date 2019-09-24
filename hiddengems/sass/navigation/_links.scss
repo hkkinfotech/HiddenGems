@@ -1,0 +1,25 @@
+a { //(0,0,0,1)
+	color: $color__link;
+	text-decoration: none;
+
+	// &:visited {
+	// 	color: $color__link-visited;
+	// }
+
+	&:hover,
+	&:focus,
+	&:active { //(0,0,1,1) ,(0,0,1,1) ,(0,0,1,1)
+		color: $color__link-hover;
+			text-decoration: none;
+	}
+	&:focus { //(0,0,1,1)
+
+			text-decoration: none;
+	}
+	&:hover,
+	&:active { //(0,0,1,1), (0,0,1,1)
+			color: $color__link-hover;
+		outline: 0;
+			text-decoration: none;
+	}
+}

@@ -1,0 +1,68 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] { //(0,0,0,1), (0,0,1,1), (0,0,1,1), (0,0,1,1),
+	border: 1px solid;
+	border-color: $color__border-button;
+	border-radius: 3px;
+	background: none;
+	background-color: $color__background-button;
+	    margin: .5rem 2%;
+			border-radius: 28px;
+padding: 12px 24px;
+text-align: center;
+text-decoration: none;
+overflow-wrap: break-word;
+
+	@include font-size(0.75);
+	line-height: 1;
+	padding: .6em 1em .4em;
+
+	&:hover { //(0,0,1,1)
+		border-color: $color__border-button-hover;
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color__border-button-focus;
+	}
+}
+.textwidget button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: $color__border-button-widget;
+	border-radius: 3px;
+	background: none;
+	background-color: $color__background-button-widget;
+				border-radius: 28px;
+				padding: 12px 24px;
+				text-align: center;
+				text-decoration: none;
+				overflow-wrap: break-word;
+}
+input#nf-field-23 {
+    background-color:$color__background-button-widget;
+		color: $color__text-input;
+					border-radius: 28px;
+					padding: 12px 24px;
+					text-align: center;
+					text-decoration: none;
+					overflow-wrap: break-word;
+}
+input#nf-field-8{
+	background-color:$color__background-button;
+	color:$color__link;
+				border-radius: 28px;
+				padding: 12px 24px;
+				text-decoration: none;
+				overflow-wrap: break-word;
+}
+input#nf-field-24{
+	background-color: $color__background-body;
+				border-radius:28px;
+				padding: 12px 24px;
+				text-decoration: none;
+				overflow-wrap: break-word;
+}

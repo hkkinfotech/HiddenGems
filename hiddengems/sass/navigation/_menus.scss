@@ -1,0 +1,22 @@
+
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation { //(0,0,1,0), (0,0,1,0), (0,0,1,0)
+
+	.site-main & {
+		margin: 0 0 1.5em;
+		overflow: hidden;
+	}
+
+	.nav-previous { //(0,0,2,0)
+		float: left;
+		width: 50%;
+	}
+
+	.nav-next { //(0,0,2,0)
+		float: right;
+		text-align: right;
+		width: 50%;
+	}
+}

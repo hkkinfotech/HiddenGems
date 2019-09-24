@@ -1,0 +1,37 @@
+h1, h2, h3, h4, h5, h6 { //(0,0,0,1)
+	clear: both;
+	font-family:$font__serif;
+
+}
+h1{ //(0,0,0,1)
+	font-size: 2em;
+
+}
+h2{ //(0,0,0,1)
+	font-size: 2.6em;
+	color:$color__headings;
+
+}
+h3{ //(0,0,0,1)
+	font-size: 2.2em;
+}
+.nf-form-title h3{ //(0,0,1,1)
+	font-size: 1em;
+}
+h4{ //(0,0,0,1)
+	font-size: 2em;
+	margin: 0;
+}
+h5{ //(0,0,0,1)
+	font-size: 1.8em;
+	margin-bottom: 0;
+}
+h6{ //(0,0,0,1)
+	font-size: 1.6em;
+}
+h2.entry-title {//(0,0,1,1)
+    display: none;
+}
+h1.entry-title { //(0,0,1,1)
+    display: none;
+}
